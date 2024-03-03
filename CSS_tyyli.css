@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+html,body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+p.color {
+    color: rgb(211, 32, 32)
+}
+
+
+
+
+header {
+    background-image: url(sunnyforest.jpg);
+    background-position: center; 
+    background-size: cover;
+}
+
+.header2 {
+    background-image: url(EveningForestSun.jpg);
+    background-position: center; 
+    background-size: cover;
+}
+
+.h1 {
+    font-size: 30px;
+    text-align: center;
+    color: gold;
+    padding: 20%;
+
+}
+
+
+.content {
+    width: 90%;
+    margin: auto;
+    font-size: 15px;
+}
+
+.quote {
+    font-size: 10vw;
+    text-align: center;
+    color:gold;
+    padding: 4%;
+}
+
+.content img{
+    width: 100%;
+    padding: 30px 10px 30px 10px;
+}
+
+
+
+footer {
+    background-color:orange;
+    text-align: center;
+}
+
+
+.footer p {
+    color:black;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+@media only screen and (min-width: 650px){
+
+    .content {
+        width: 75%;
+    }
+    .header h1 {
+        padding: 85px 20px
+    }
+    .quote {
+        font-size: 40px;
+    }
+
+}
+@media only screen and (min-width: 1025px){
+    .content {
+        width: 100%;
+    }
+    .header h1 {
+        font-size: 60px;
+    }
+}
+
+.column {
+    float: left;
+    width: 45%;
+    padding-right: 5%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
